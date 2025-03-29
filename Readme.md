@@ -1,0 +1,1 @@
+Its just a Basic Landing Page for practicing my ui and tailwind skills.
