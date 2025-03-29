@@ -5,6 +5,9 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); /*! for dark mode */
 
 @theme {
+  --breakpoint-C1:1202px;
+
+
   /*! Colors  */
   --color-primary: #f5f7fa;
   --color-secondary: #fff;
@@ -14,14 +17,19 @@
   --color-light-black: #4d4d4d;
   --color-footer: #263238;
   --color-text: #000;
+  --color-footer-text:#bcbcbc;
 
   /*! fonts */
   --font-poppins: "Poppins", sans-serif;
   --font-roboto: "Roboto", sans-serif;
-  --font-
 }
 
 /*! Classes  */
-.btn {
-  @apply py-4 px-10 bg-btn rounded-[5px] text-lg text-secondary;
+@layer components {
+  .btn {
+    /* @apply py-4 px-10 bg-[#3b3b46] rounded-[5px] text-lg text-secondary; */
+  }
+  .card1 {
+    /* @apply flex flex-col justify-center items-center h-25 w-10 shadow-2xl text-center; */
+  }
 }
