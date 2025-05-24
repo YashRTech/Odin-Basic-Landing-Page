@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="4" y="4" width="120" height="120" rx="8" fill="#0A66C2"/>
+  
+  <!-- Letter "i" -->
+  <rect x="21" y="52" width="16" height="48" fill="white"/>
+  <circle cx="29" cy="34" r="9" fill="white"/>
+  
+  <!-- Letter "n" -->
+  <path d="M51 52h16v7h0.2c2.2-4.2 7.6-8.6 15.7-8.6C99.9 50.4 107 61.8 107 76.5v23.5H91V79.5c0-6-0.1-13.7-8.3-13.7c-8.4 0-9.7 6.5-9.7 13.3v21.9H51V52z" fill="white"/>
+</svg>
